@@ -1,0 +1,72 @@
+.layer {
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+} 
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.content, .title, .subtitle {
+    color: var(--color-white-smoke);
+    background-color: transparent;
+    opacity: 1;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1.5rem 3rem 1.5rem 0;
+    width: 100%;
+}
+
+.name {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    padding: .6rem 1rem;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: bold;
+    margin: .7rem 0;
+    padding: 0;
+}
+
+.subtitle {
+    margin-top: .5rem;
+    font-size: clamp(1rem, 1vw, 1.25rem);
+    padding: 0;
+}
+
+.containerBanner {
+    width: 80%;
+    height: 21rem;
+    z-index: 1;
+    border-radius: 15px;
+    overflow-y: hidden;
+    border: 4px solid var(--primary-color);
+}
+
+.video {
+    width: 40.487rem; 
+    height: 100%;
+}

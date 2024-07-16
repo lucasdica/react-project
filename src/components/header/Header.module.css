@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-bottom: 4px solid var(--color-blue);
+}
+
+a{ text-decoration: none;}
+
+.logoContainer{
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-black);
+}
+
+.header img {
+    align-self: start;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuIcon {
+    display: none;
+}
